@@ -1,8 +1,9 @@
-package andrea.publics.backend.controller
+package andrea.publics.backend.common.controller
 
 import andrea.publics.backend.constants.API_PATH_PREFIX_V1
-import andrea.publics.backend.menu.dto.MenuGroupDTO
+import andrea.publics.backend.domain.menu.dto.MenuGroupDTO
 import org.springframework.web.bind.annotation.GetMapping
+import org.springframework.web.bind.annotation.PathVariable
 import org.springframework.web.bind.annotation.RequestMapping
 import org.springframework.web.bind.annotation.RestController
 
@@ -18,4 +19,5 @@ class IndexAPIController {
     fun menus(): Any {
         return MenuGroupDTO.dummyMenu
     }
+
 }

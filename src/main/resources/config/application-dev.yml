@@ -1,0 +1,23 @@
+spring:
+  h2:
+    console:
+      enabled: true
+  jpa:
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        format_sql: true # SQL 로그 출력
+    database-platform: org.hibernate.dialect.H2Dialect
+logging:
+  level:
+    org.hibernate.SQL: DEBUG
+    andrea:
+      publics:
+        backend:
+          config:
+            TestLoggingFilter: DEBUG
+    org:
+      springframework:
+        web:
+          filter: DEBUG

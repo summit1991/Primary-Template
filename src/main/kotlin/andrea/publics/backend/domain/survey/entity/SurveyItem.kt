@@ -1,3 +1,4 @@
+/*
 package andrea.publics.backend.domain.survey.entity
 
 import javax.persistence.*
@@ -26,3 +27,4 @@ enum class SurveyItemType {
     Multiple,
     Description
 }
+*/

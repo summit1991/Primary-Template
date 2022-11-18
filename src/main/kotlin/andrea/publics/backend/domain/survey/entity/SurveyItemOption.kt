@@ -1,3 +1,4 @@
+/*
 package andrea.publics.backend.domain.survey.entity
 
 import javax.persistence.*
@@ -21,3 +22,4 @@ class SurveyItemOption(
     @field:ManyToOne(fetch = FetchType.LAZY)
     val item: SurveyItem
 )
+*/

@@ -1,3 +1,4 @@
+/*
 package andrea.publics.backend.domain.survey.service
 
 import andrea.publics.backend.domain.survey.repo.SurveyRepo
@@ -20,3 +21,4 @@ class SurveyService @Autowired constructor(
         return ""
     }
 }
+*/

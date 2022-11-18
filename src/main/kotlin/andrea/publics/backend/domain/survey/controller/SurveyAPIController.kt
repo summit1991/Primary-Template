@@ -1,3 +1,4 @@
+/*
 package andrea.publics.backend.domain.survey.controller
 
 import andrea.publics.backend.constants.API_PATH_PREFIX_V1
@@ -20,3 +21,4 @@ class SurveyAPIController {
         return ""
     }
 }
+*/

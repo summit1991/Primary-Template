@@ -1,3 +1,4 @@
+/*
 package andrea.publics.backend.common.model
 
 import java.time.LocalDateTime
@@ -10,3 +11,4 @@ data class Period(
     @field:Column(columnDefinition = "TIMESTAMP")
     var endAt: LocalDateTime?
 )
+*/

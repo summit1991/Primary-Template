@@ -9,7 +9,6 @@ import org.springframework.security.config.annotation.web.configuration.EnableWe
 import org.springframework.security.config.annotation.web.configuration.WebSecurityCustomizer
 import org.springframework.security.web.SecurityFilterChain
 
-@Configuration
 @EnableWebSecurity
 class HttpSecurityConfig {
     @Bean
@@ -17,14 +16,15 @@ class HttpSecurityConfig {
         web.ignoring().antMatchers("/static/**")
     }
 
+    // 자세한 설정이 위로 와야하는군
     @Bean
     fun apiSecurityFilterChain(
         http: HttpSecurity
     ): SecurityFilterChain {
         http.formLogin(Customizer.withDefaults())
             .authorizeRequests()
+            //.antMatchers("/v1/**").authenticated()
             .antMatchers("**").permitAll()
-            // .antMatchers("/v1/**").authenticated()
         return http.build()
     }
 }

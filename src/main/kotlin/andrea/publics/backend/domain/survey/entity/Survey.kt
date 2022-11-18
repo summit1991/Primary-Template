@@ -1,3 +1,4 @@
+/*
 package andrea.publics.backend.domain.survey.entity
 
 import andrea.publics.backend.common.model.Period
@@ -24,6 +25,7 @@ class Survey(
 
 
     companion object {
+*/
 /*        val dummy = Survey(
             title = "설문을 시작합니다.",
             description = "달라일러야 쩜메야",
@@ -43,6 +45,8 @@ class Survey(
 
                 )
             )
-        )*/
+        )*//*
+
     }
 }
+*/
